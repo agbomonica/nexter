@@ -1,9 +1,7 @@
 .header {
-  padding: 8rem;
-  padding-top: 4rem;
+  padding: 4rem 8rem 8rem 8rem;
   background-color: $color-grey-dark-1;
   grid-column: full-start / col-end 6;
-
   background-image: linear-gradient(
       rgba($color-secondary, 0.93),
       rgba($color-secondary, 0.93)
@@ -13,11 +11,10 @@
   background-position: center;
 
   display: grid;
-  // r1, r4 occupies all available empty space
   grid-template-rows: 1fr min-content 6rem 1fr;
-  grid-template-columns: max-content;
-  row-gap: 1.5rem;
+  grid-template-columns: min-max(max-content, 1fr);
   justify-content: center;
+  row-gap: 1.5rem;
 
   &__logo {
     height: 3rem;
@@ -25,8 +22,8 @@
   }
 
   &__btn {
-    justify-self: start;
     align-self: start;
+    justify-self: start;
   }
 
   &__seenon-text {
@@ -51,7 +48,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     column-gap: 3rem;
-    justify-items: center;
+
     img {
       height: 2.5rem;
       filter: brightness(70%);
