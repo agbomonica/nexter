@@ -18,7 +18,7 @@ A flexible and responsive web application for a Real Estate Company.
 
 ##### Development build process
 
-- `npm run start` auto browser reload
+- `npm run start` for auto browser reloads
 - `npm watch:sass` watch for changes in main.scss file
 - `npm compile:sass` compile your main stylesheet into vanilla CSS
 
