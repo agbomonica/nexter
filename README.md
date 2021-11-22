@@ -4,7 +4,7 @@ A flexible and responsive web application for a Real Estate Company.
 
 ### Tools & web technologies used:
 
-- SASS: sass is a CSS preprocessor that enable developers write cleaner and maintainable codes. It helps to keep large stylesheets well organized with advanced feature supports like variables, mathematical operators, inheritance, nesting of selectors to avoid code repeatition, mixins that enables developers write reusuable codes, functions and control directives. All CSS codes written in SASS is compiled into CSS.
+- SASS: sass is a CSS preprocessor that enable developers write cleaner and maintainable codes. It helps to keep large stylesheets well organized with advanced feature supports like variables, mathematical operators, inheritance, nesting of selectors to avoid code repeatition, mixins that enables developers write reusuable codes, functions and control directives. Codes written in SASS is compiled into CSS.
 
 - Responsive grid and flexbox layouts.
 
@@ -18,7 +18,7 @@ A flexible and responsive web application for a Real Estate Company.
 
 ##### Development build process
 
-- `npm run start` auto browser reload
+- `npm run start` for auto browser reloads
 - `npm watch:sass` watch for changes in main.scss file
 - `npm compile:sass` compile your main stylesheet into vanilla CSS
 
