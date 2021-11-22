@@ -8,24 +8,24 @@ A flexible and responsive web application for a Real Estate Company.
 
 - Responsive grid and flexbox layouts.
 
-- [icoMoon](https://icomoon.io/) free fonts was used for this project. A sprite file containing all icons used in the course of this project is located in the image folder. With this sprite file, SVG icons can be referenced in your HTML on the fly without having to use inline SVGs. Visit icomoon official website if you wish to add more SVG icons to the pack.
+- Free icons from [IcoMoon](https://icomoon.io/) was used for this project. A sprite file containing all icons used in the course of this project is located in the image folder. With this sprite file, SVG icons can be referenced in your HTML on the fly without having to use inline SVGs. Visit icomoon official website if you wish to add more SVG icons to the pack.
 
-#### Usuage
+### Usuage
 
-##### Project setup
+#### Project setup
 
 `npm install` downloads all dev dependencies
 
-##### Development build process
+#### Development build process
 
 - `npm run start` for auto browser reloads
 - `npm watch:sass` watch for changes in main.scss file
 - `npm compile:sass` compile your main stylesheet into vanilla CSS
 
-##### Compile and minify for production
+#### Compile and minify for production
 
 `npm run build:css` compiles, auto-prefix and minify CSS for production.
 
-#### Live preview
+### Live preview
 
 [Nexter](https://nexiter.netlify.app/)
